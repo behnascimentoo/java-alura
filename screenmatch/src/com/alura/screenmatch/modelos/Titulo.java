@@ -9,6 +9,14 @@ public class Titulo {
     private int totalDeAvaliacoes;
     private int duracaoEmMinutos;
 
+    //Construtor
+
+
+    public Titulo(String nome, int anoDeLancamento) {
+        this.nome = nome;
+        this.anoDeLancamento = anoDeLancamento;
+    }
+    //Metodos Especiais
     public int getDuracaoEmMinutos() {
         return duracaoEmMinutos;
     }
@@ -45,7 +53,7 @@ public class Titulo {
         this.duracaoEmMinutos = duracaoEmMinutos;
     }
 
-
+    //Metodos
 
     public void exibeFichaTecnica() {
         System.out.println("Nome do filme: " + nome);
