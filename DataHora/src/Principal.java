@@ -11,7 +11,7 @@ public class Principal {
         System.out.println("Data primeira parcela: " + dataPrimeiraParcela);
         System.out.println("Data segunda parcela: " + dataSegundaParcela);
 
-        //Verifica se a data da parcela esta na data atual
+        //Verifica se a data da parcela esta na data atual (isBefore/isEqual/isAfter)
         if (dataPrimeiraParcela.isBefore(LocalDate.now())) {
             System.out.println("Hoje é o dia de vencimento");
         } else {
