@@ -1,4 +1,4 @@
-public class ex02 {
+public class PlataformaDeEstudos {
     public static void main(String[] args) {
         int nota = 7;
         int peso = 2;

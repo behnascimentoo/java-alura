@@ -1,6 +1,6 @@
 import java.time.LocalDate;
 
-public class ex01 {
+public class SistemaDeAgendamento {
     public static void main(String[] args) {
         LocalDate base = LocalDate.of(2025, 6, 1);
         int dias = 7;
