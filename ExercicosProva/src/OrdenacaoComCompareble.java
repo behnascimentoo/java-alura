@@ -2,15 +2,21 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class OrdenacaoComCompareble{
+public class OrdenacaoComCompareble implements Comparable<OrdenacaoComCompareble>{
     String titulo;
 
     public OrdenacaoComCompareble(String titulo) {
         this.titulo = titulo;
     }
 
+    @Override
     public int compareTo(OrdenacaoComCompareble outra) {
         return this.titulo.compareTo(outra.titulo);
+    }
+
+    @Override
+    public String toString() {
+        return titulo;
     }
 
     public static void main(String[] args) {
